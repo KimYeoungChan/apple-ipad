@@ -153,8 +153,14 @@ a.link::after {
   width: 100px;
   height: 100px;
   margin: 0 0 -15px -30px;
-  background-image: url("../images/sprite_apps.png");
 }
+
+.info .icon.icon--chip {background-image: url("../images/sprite_chip.png");}
+.info .icon.icon--faster {background-image: url("../images/sprite_faster.png");}
+.info .icon.icon--neural {background-image: url("../images/sprite_neural.png");}
+.info .icon.icon--apps {background-image: url("../images/sprite_apps.png");}
+.info .icon.icon--battery {background-image: url("../images/sprite_battery.png");}
+
 .info p {
   font-size: 21.5px;
   font-weight: 600;
