@@ -158,6 +158,10 @@ a.link::after {
   opacity: 1;
 }
 
+.infos--large .info {
+  max-width: 410px;
+}
+
 .info .icon {
   width: 100px;
   height: 100px;
@@ -217,11 +221,20 @@ a.link::after {
 .info .icon.icon--notes {
   background-image: url("../images/sprite_notes.png");
 }
+.info .icon.icon--covers {
+  background-image: url("../images/sprite_covers.png");
+}
 
 .info p {
   font-size: 21.5px;
   font-weight: 600;
   line-height: 1.5;
+}
+
+.info a.link {
+  display: block;
+  margin-top: 44px;
+  font-size: 19.5px;
 }
 
 /* HEADER */
@@ -700,8 +713,8 @@ nav .menu li.active:hover a {
   position: absolute;
   top: 36px;
   left: 76px;
-  -webkit-mask-image: url('../images/camera_video_mask.png');
-  mask-image: url('../images/camera_video_mask.png');
+  -webkit-mask-image: url("../images/camera_video_mask.png");
+  mask-image: url("../images/camera_video_mask.png");
 }
 
 .camera .stage .controller--play,
@@ -747,9 +760,82 @@ nav .menu li.active:hover a {
 .camera .edit figcaption {
   width: 130px;
   height: 47px;
-  background-image: url('../images/camera_edit_caption.png');
+  background-image: url("../images/camera_edit_caption.png");
   transform: translate(27px, 905px);
 }
+
+/* Wireless */
+.wireless {
+  margin-top: 202px;
+}
+
+/* Wireless / Facetime */
+
+.wireless .facetime h1 {
+  width: 730px;
+  height: 330px;
+  background-image: url("../images/wireless_headline.png");
+  transform: translate(104px, 0);
+}
+.wireless .facetime .figures {
+  height: 773px;
+}
+.wireless .facetime figure {
+  transform: translate(-68px, 0);
+}
+.wireless .facetime figcaption {
+  width: 139px;
+  height: 46px;
+  background-image: url("../images/wireless_facetime_caption.png");
+  transform: translate(843px, -49px);
+}
+
+/* Wireless / Files */
+.wireless .files figure {
+  transform: translate(34px, -34px);
+}
+.wireless .files figcaption {
+  width: 127px;
+  height: 46px;
+  background-image: url("../images/wireless_files_caption.png");
+  transform: translate(96px, 639px);
+}
+
+/* Accessories */
+.accessories {
+  margin-top: 195px;
+}
+.accessories h1 {
+  width: 550px;
+  height: 343px;
+  background-image: url('../images/accessibility_headline.png');
+  margin: 0 auto;
+}
+.accessories .figures {
+  height: 1021px;
+  margin-top: 34px;
+}
+.accessories figure {
+  transform: translate(-24px, 0);
+}
+.accessories figcaption .caption-memo {
+  width: 169px;
+  height: 41px;
+  background-image: url('../images/accessories_caption_memo.png');
+  transform: translate(790px, -52px);
+}
+.accessories figcaption .caption-supports {
+  width: 200px;
+  height: 70px;
+  background-image: url('../images/accessories_caption_supports.png');
+  transform: translate(163px, 821px);
+}
+.accessories .infos {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 
 
 @keyframes sprite-icon {
