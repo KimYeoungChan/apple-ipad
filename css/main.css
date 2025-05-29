@@ -883,7 +883,7 @@ nav .menu li.active:hover a {
 .ipados .figure-quick-note figcaption {
   width: 82px;
   height: 97px;
-  background-image: url('../images/ipados_quick_note_caption.png');
+  background-image: url("../images/ipados_quick_note_caption.png");
   transform: translate(511px, 470px);
 }
 
@@ -894,7 +894,7 @@ nav .menu li.active:hover a {
 .apps h1 {
   width: 500px;
   height: 264px;
-  background-image: url('../images/apps_headline.png');
+  background-image: url("../images/apps_headline.png");
   transform: translate(17px, 0);
 }
 .apps .infos {
@@ -916,7 +916,7 @@ nav .menu li.active:hover a {
 .apps .figure-materclass figcaption {
   width: 100px;
   height: 25px;
-  background-image: url('../images/apps_masterclass_caption.png');
+  background-image: url("../images/apps_masterclass_caption.png");
   transform: translate(26px, 690px);
 }
 
@@ -926,7 +926,7 @@ nav .menu li.active:hover a {
 .apps .figure-adobe figcaption {
   width: 105px;
   height: 24px;
-  background-image: url('../images/apps_adobe_caption.png');
+  background-image: url("../images/apps_adobe_caption.png");
   transform: translate(544px, 514px);
 }
 
@@ -936,7 +936,7 @@ nav .menu li.active:hover a {
 .apps .figure-fantasian figcaption {
   width: 74px;
   height: 22px;
-  background-image: url('../images/apps_fantasian_caption.png');
+  background-image: url("../images/apps_fantasian_caption.png");
   transform: translate(24px, 483px);
 }
 
@@ -946,7 +946,7 @@ nav .menu li.active:hover a {
 .apps .figure-books figcaption {
   width: 50px;
   height: 27px;
-  background-image: url('../images/apps_books_caption.png');
+  background-image: url("../images/apps_books_caption.png");
   transform: translate(397px, 707px);
 }
 
@@ -956,11 +956,45 @@ nav .menu li.active:hover a {
 .apps .figure-goodnotes figcaption {
   width: 99px;
   height: 26px;
-  background-image: url('../images/apps_goodnotes_caption.png');
+  background-image: url("../images/apps_goodnotes_caption.png");
   transform: translate(24px, 690px);
 }
 
+/* Privacy */
+.privacy {
+  margin-top: 238px;
+}
+.privacy h1 {
+  width: 482px;
+  height: 237px;
+  margin-left: auto;
+  background-image: url("../images/privacy_headline.png");
+  position: relative;
+  z-index: 1;
+  transform: translate(57px, 0);
+}
+.privacy .infos {
+  margin-top: 38px;
+  align-items: flex-end;
+  position: relative;
+  z-index: 1;
+}
+.privacy figure {
+  transform: translate(-215px, -500px);
+}
+.privacy figcaption .caption-apple-id {
+  width: 170px;
+  height: 26px;
 
+  background-image: url("../images/privacy_caption_apple_id.png");
+  transform: translate(195px, -13px);
+}
+.privacy figcaption .caption-touch-id {
+  width: 150px;
+  height: 31px;
+  background-image: url("../images/privacy_caption_touch_id.png");
+  transform: translate(533px, 485px);
+}
 
 @keyframes sprite-icon {
   /* 1~10 */
