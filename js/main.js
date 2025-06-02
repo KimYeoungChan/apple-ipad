@@ -155,6 +155,9 @@ navigations.forEach(function(nav){
             ${mapList}
         </ul>
     `
-
     navigationEl.append(mapEl);
 });
+
+// 올해 JS
+const thisYearEl = document.querySelector('span.this-year');
+thisYearEl.textContent = new Date().getFullYear();
